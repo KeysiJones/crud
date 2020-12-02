@@ -1,0 +1,173 @@
+
+h1 {
+	text-align: center; 
+}
+
+::selection {
+    color: black;
+    background: #76e1f7;
+}
+
+div#content{
+	margin: 1%;
+	border-radius:2vh;
+	padding: 1vh;
+}
+
+.formulario {
+    display: block;
+    border-radius: 1vh;
+    padding: 2vh;
+    background-color: #31313114;
+}
+
+.thead-gray{
+	color: #212529;
+	background-color: #31313114;
+	border-color: #31313114;
+}
+
+@media (max-width: 399px){
+	.formulario-login {
+		min-width: 40vh;
+		width: 50%;
+		margin: 50% auto;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 640.4px){
+	.formulario-login {
+		min-width: 40vh;
+		width: 50%;
+		margin: 10% auto;
+	}
+}
+
+@media (min-width:640.5px) and (max-width: 999px){
+	.formulario-login{
+		min-width: 39vh;
+		width: 56%;
+		margin: 15% auto;
+	}
+}
+
+@media (min-width: 1000px){
+	.formulario-login {
+		min-width: 50vh;
+		width: min-content;
+		margin: 5% auto;
+	}
+}
+
+.oculto {
+	display:inherit;
+}
+
+table td.titulos{
+	background-color: #d4d4d4;;
+	border: none;
+}
+
+table td, table th {
+  vertical-align: middle !important;
+}
+/*
+table {
+	display: contents;
+}*/
+
+.borda-esquerda{
+	border-radius: 1vh 0 0 0;
+}
+
+.borda-direita{
+	border-radius: 0 1vh 0 0;
+	border:none;
+}
+
+/* Margem para os botões das ações com tipo == button*/
+a[type=button]{
+	margin: .4vh;
+}
+
+textarea{
+	background-color: #94928f1a;
+	border-radius: 3px;
+    border: 1px solid #00000012;
+}
+
+textarea:focus{
+	background-color:#ffffff;
+	outline: white;
+}
+
+img.thumb{
+    width: 8vh;
+    border-radius: 1vh;
+}
+
+.loader {
+  font-size: 10px;
+  margin: 50px auto;
+  text-indent: -9999em;
+  width: 11em;
+  height: 11em;
+  border-radius: 50%;
+  background: #02e3be;
+  background: -moz-linear-gradient(left, #02e3be 10%, rgba(2,227,190, 0) 42%);
+  background: -webkit-linear-gradient(left, #02e3be 10%, rgba(2,227,190, 0) 42%);
+  background: -o-linear-gradient(left, #02e3be 10%, rgba(2,227,190, 0) 42%);
+  background: -ms-linear-gradient(left, #02e3be 10%, rgba(2,227,190, 0) 42%);
+  background: linear-gradient(to right, #02e3be 10%, rgba(2,227,190, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: #02e3be;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.loader:after {
+  background: #ffffff;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
